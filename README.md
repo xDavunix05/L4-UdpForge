@@ -1,4 +1,9 @@
 
+<!-- SEO keywords: udp flood, udp flood attack, udp flood payload, udp flood script, udp flood tool, udp flood python, denial of service, dos attack, network security, udp flood detection, udp flood mitigation, udp flood example, udp flood github, udp flood, udp payload, custom-payload, amplify with payload udp, network-scanning, open source -->
+
+## udpflood.py
+
+
 ## Overview
 udpflood.py is a Python script intended to send UDP packets with different payloads for network fuzzing and testing. It can handle a variety of payload formats, such as custom, random, corrupted data, and many more. Only amplify mode supports DNS payloads. This tool is designed to be used on systems that you either own or have specific authorization to test.
 

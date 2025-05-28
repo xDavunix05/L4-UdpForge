@@ -4,8 +4,16 @@
 ## udpflood.py
 
 
-## Overview
-udpflood.py is a Python script intended to send UDP packets with different payloads for network fuzzing and testing. It can handle a variety of payload formats, such as custom, random, corrupted data, and many more. Only amplify mode supports DNS payloads. This tool is designed to be used on systems that you either own or have specific authorization to test.
+## Description
+udpflood.py is a Python script designed to send UDP flood packets with customizable payloads. It supports crafting payloads using both ASCII and hexadecimal formats and offers a variety of predefined payload modes, including:
+- random
+- ff
+- icmp
+- malformed
+- zero
+- inc
+
+Additionally, it features an amplify mode, which supports DNS payloads only for amplification attacks.
 
 ## Features
 - Flood or amplify UDP packets to one or more targets
@@ -17,16 +25,28 @@ udpflood.py is a Python script intended to send UDP packets with different paylo
 ## Requirements
 - Python 3.x
 - scapy
-- Linux only
+
 
 ## Installation
-1. **Install Python 3.x** if not already installed.
-2. **Install dependencies:**
-   ```sh
+
+1. Clone the repository:
+
+   ```shell
+   https://github.com/xDavunix05/L4-UdpForge.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+   cd L4-UdpForge
+   ```
+
+3. Install the required dependencies:
+
+   ```shell
    pip install -r requirements.txt
    ```
-3. **Download the script:**  
-   Clone this repository or download `udpflood.py` to your local machine.
+---
 
 ## Usage
 
